@@ -1,13 +1,4 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    width: 100vw;
-    margin: 3rem 0;
-    margin-bottom: 5rem;
-    box-sizing: border-box;
-  }
+
   .h2{
     font-size: 48px; 
     font-weight: 500; 
@@ -17,6 +8,7 @@
     flex-direction: column;
     text-align: center;
     gap: 3em;
+    margin: 3rem 0;
     font-family: 'Roboto Mono', monospace;
     width: 100%;
     box-sizing: border-box;
