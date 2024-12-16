@@ -1,7 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/modules/About/page": "app/modules/About/page.js",
-  "/modules/HeroSection/page": "app/modules/HeroSection/page.js",
   "/page": "app/page.js"
 }
