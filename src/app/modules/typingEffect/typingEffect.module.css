@@ -2,7 +2,7 @@
     overflow: hidden;
     padding: 1px;
     white-space: nowrap;
-    animation: typing 3s steps(30) 1s forwards blink .75s step-end infinite;
+    animation: typing 3s steps(30) 1s forwards, blink .75s step-end infinite;
     font-size: 4rem;
 
 }
@@ -12,6 +12,7 @@
     background-color: #394c58;
     animation: blink 0.7s step-end infinite;
   }
+
 @keyframes typing{
     from{
         width: 0%;
@@ -35,11 +36,10 @@
 }
   }
   
-  /* Para pantallas pequeñas (móviles) */
   @media (max-width: 480px) {
 
     .typingEffect{
       font-size: 2.8rem;
   
   }
-  }
+}

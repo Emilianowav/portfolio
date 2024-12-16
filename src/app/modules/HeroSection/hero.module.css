@@ -1,4 +1,4 @@
-/* Fondo con gradiente y filtros */
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -12,58 +12,52 @@
 }
 
 .gradientBack {
-  position: absolute; /* Absoluto para que no afecte al flujo del documento */
+  position: absolute; 
   top: 0;
   left: 0;
   background: linear-gradient(209deg, #4A90E2, #50C4B6, #4E9F9F, #2F8A8C, #1C5B5B);
   background-size: 360% 360%;
   animation: gradient-animation 54s ease infinite;
   
-  /* Filtro de desenfoque y ajustes de brillo/contraste */
   -webkit-filter:  brightness(1.2) contrast(1.3);
   filter: blur(3px) brightness(1.2) contrast(1.3); 
   
-  /* Máscara para curvas (si la quieres aplicar) */
   -webkit-mask-image: linear-gradient( rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
   mask-image: linear-gradient( rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
   
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  z-index: -1; /* Asegúrate de que el gradiente esté por debajo del contenido */
+  z-index: -1; 
 }
 
-/* Contenedor con texto y contenido */
 .container {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrado horizontal */
-  justify-content: center; /* Centrado vertical */
+  align-items: center; 
+  justify-content: center; 
   width: 100%;
   height: 100vh;
   color: white;
   font-family: Roboto Mono, monospace;
-  overflow: hidden; /* Eliminar cualquier desbordamiento */
+  overflow: hidden; 
 }
 
-/* Contenido principal */
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 100vh; /* Usar min-height para permitir que el contenido se expanda si es necesario */
+  min-height: 100vh;
   font-size: 3rem;
   text-align: center;
   font-weight: 500;
-  padding: 0 20px; /* Asegura que no haya contenido pegado a los bordes */
+  padding: 0 20px;
 }
 
-/* Título */
 .title {
-  /* margin-top: 2.5rem; */
   margin: 2.5rem 1rem 0 1rem;
   line-height: 1.2;
 }
@@ -73,7 +67,6 @@
   font-size: inherit;
 }
 
-/* Botón */
 .button {
   margin-top: 5rem;
   padding: 12px 24px;
@@ -91,13 +84,10 @@
   background: #32bba9;
 }
 
-/* RESPONSIVE */
-
-/* Para pantallas medianas (tabletas, etc.) */
 @media (max-width: 768px) {
   .content {
-      font-size: 2.2rem; /* Ajuste del tamaño de la fuente */
-      padding: 0 15px; /* Asegurar un margen adecuado */
+      font-size: 2.2rem; 
+      padding: 0 15px; 
   }
 
   .title {
@@ -105,11 +95,10 @@
   }
 }
 
-/* Para pantallas pequeñas (móviles) */
 @media (max-width: 480px) {
   .content {
-      font-size: 1.6rem; /* Ajuste más pequeño para pantallas pequeñas */
-      padding: 0 10px; /* Reducir el padding para evitar cortes */
+      font-size: 1.6rem; 
+      padding: 0 10px; 
   }
 
   .title {
@@ -118,6 +107,6 @@
 
   .button {
       padding: 10px 20px;
-      font-size: 0.9rem; /* Ajuste del tamaño del botón */
+      font-size: 0.9rem;
   }
 }
