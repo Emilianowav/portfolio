@@ -1,6 +1,8 @@
-import styles from "./hero.module.css"
+import Image from "next/image";
 //assets
+import iconoHero from "../../../../public/images/iconoHero.svg"
 //modules
+import styles from "./hero.module.css"
 import TypingEffect from "../typingEffect/TypingEffect"
 import Link from "next/link";
 export default function HeroSection() {
@@ -8,6 +10,7 @@ export default function HeroSection() {
     return(
         <div>
             <div className={styles.gradientBack}></div>
+            <Image src={iconoHero} alt="iconoHero" className={styles.iconoHero} />
             <div className={styles.container}>
                 <div className={styles.content}>
                     <TypingEffect  words={greetings}/>

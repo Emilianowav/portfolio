@@ -63,8 +63,8 @@
 }
 
 .name {
-  color: #333;
   font-size: inherit;
+  color: black;
 }
 
 .button {
@@ -84,6 +84,16 @@
   background: #32bba9;
 }
 
+.iconoHero{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 7%;
+  height: auto;
+  /* filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.1)); */
+}
+
+
 @media (max-width: 768px) {
   .content {
       font-size: 2.2rem; 
@@ -92,6 +102,9 @@
 
   .title {
       margin-top: 4rem;
+  }
+  .iconoHero{
+    width: 10%;
   }
 }
 

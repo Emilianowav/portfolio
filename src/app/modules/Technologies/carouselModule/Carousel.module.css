@@ -1,0 +1,36 @@
+.carouselContainer {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    overflow: hidden; /* Oculta las imágenes fuera del contenedor */
+  }
+  
+  .carousel {
+    display: flex;
+    white-space: nowrap; /* Evita que las imágenes se envuelvan */
+    transition: transform 0.1s ease; 
+    gap: 8rem;
+  }
+  .slide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: Roboto mono, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+  
+    .carousel{
+        gap: 4rem;
+    }
+  }
+  @media (max-width: 480px) {
+  
+    .carousel{
+        gap: 4rem;
+    }
+  }

@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    background-color: #0d1117; /* Color de fondo oscuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-family:  'Roboto Mono', monospace;
+    box-sizing: border-box;
+  }
+  
+  .iconsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    color: #ffffff;
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: translateY(-5px); /* Azul para LinkedIn y estilo hover */
+  }
+  
+  .footerText {
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.3;
+  }
+  @media (max-width: 480px) {
+  
+    .footerText {
+        font-size: 0.8rem;
+    }
+  }
