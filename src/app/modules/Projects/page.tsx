@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className={styles.imageColumn}>
-              <Image src={project.image} width={400} height={300} alt={`Vista previa de ${project.title}`} className={styles.projectImage} />
+              <Image src={project.image} width={50} height={50} alt={`Vista previa de ${project.title}`} className={styles.projectImage} />
             </div>
           </div>
         ))}
