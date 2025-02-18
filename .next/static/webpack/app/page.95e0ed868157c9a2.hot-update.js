@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./src/app/modules/Projects/projects.module.css":
+/*!******************************************************!*\
+  !*** ./src/app/modules/Projects/projects.module.css ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"projectsContainer\":\"projects_projectsContainer__iUaZ9\",\"title\":\"projects_title__XEPdm\",\"projectsGrid\":\"projects_projectsGrid__Io4gH\",\"projectCard\":\"projects_projectCard__DFUxv\",\"textColumn\":\"projects_textColumn__WzxrV\",\"projectTitle\":\"projects_projectTitle__T4Mk7\",\"projectDescription\":\"projects_projectDescription___4plH\",\"links\":\"projects_links__Bl57M\",\"linkButton\":\"projects_linkButton__i4tms\",\"imageColumn\":\"projects_imageColumn__OrAL8\",\"image\":\"projects_image___JlJi\",\"projectImage\":\"projects_projectImage__hXGCp\"};\n    if(true) {\n      // 1739894596266\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"3e207b99848b\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9hcHAvbW9kdWxlcy9Qcm9qZWN0cy9wcm9qZWN0cy5tb2R1bGUuY3NzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0Esa0JBQWtCO0FBQ2xCLE9BQU8sSUFBVTtBQUNqQjtBQUNBLHNCQUFzQixtQkFBTyxDQUFDLHdNQUErSSxjQUFjLHNEQUFzRDtBQUNqUCxNQUFNLFVBQVU7QUFDaEI7QUFDQTtBQUNBO0FBQ0EseUJBQXlCIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXFVzdWFyaW9cXERlc2t0b3BcXFdFQiBQUk9ZRUNUU1xcUG9ydEZvbGlvXFxwb3J0Zm9saW9cXHNyY1xcYXBwXFxtb2R1bGVzXFxQcm9qZWN0c1xccHJvamVjdHMubW9kdWxlLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbm1vZHVsZS5leHBvcnRzID0ge1wicHJvamVjdHNDb250YWluZXJcIjpcInByb2plY3RzX3Byb2plY3RzQ29udGFpbmVyX19pVWFaOVwiLFwidGl0bGVcIjpcInByb2plY3RzX3RpdGxlX19YRVBkbVwiLFwicHJvamVjdHNHcmlkXCI6XCJwcm9qZWN0c19wcm9qZWN0c0dyaWRfX0lvNGdIXCIsXCJwcm9qZWN0Q2FyZFwiOlwicHJvamVjdHNfcHJvamVjdENhcmRfX0RGVXh2XCIsXCJ0ZXh0Q29sdW1uXCI6XCJwcm9qZWN0c190ZXh0Q29sdW1uX19XenhyVlwiLFwicHJvamVjdFRpdGxlXCI6XCJwcm9qZWN0c19wcm9qZWN0VGl0bGVfX1Q0TWs3XCIsXCJwcm9qZWN0RGVzY3JpcHRpb25cIjpcInByb2plY3RzX3Byb2plY3REZXNjcmlwdGlvbl9fXzRwbEhcIixcImxpbmtzXCI6XCJwcm9qZWN0c19saW5rc19fQmw1N01cIixcImxpbmtCdXR0b25cIjpcInByb2plY3RzX2xpbmtCdXR0b25fX2k0dG1zXCIsXCJpbWFnZUNvbHVtblwiOlwicHJvamVjdHNfaW1hZ2VDb2x1bW5fX09yQUw4XCIsXCJpbWFnZVwiOlwicHJvamVjdHNfaW1hZ2VfX19KbEppXCIsXCJwcm9qZWN0SW1hZ2VcIjpcInByb2plY3RzX3Byb2plY3RJbWFnZV9faFhHQ3BcIn07XG4gICAgaWYobW9kdWxlLmhvdCkge1xuICAgICAgLy8gMTczOTg5NDU5NjI2NlxuICAgICAgdmFyIGNzc1JlbG9hZCA9IHJlcXVpcmUoXCJDOi9Vc2Vycy9Vc3VhcmlvL0Rlc2t0b3AvV0VCIFBST1lFQ1RTL1BvcnRGb2xpby9wb3J0Zm9saW8vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jb21waWxlZC9taW5pLWNzcy1leHRyYWN0LXBsdWdpbi9obXIvaG90TW9kdWxlUmVwbGFjZW1lbnQuanNcIikobW9kdWxlLmlkLCB7XCJwdWJsaWNQYXRoXCI6XCIvX25leHQvXCIsXCJlc01vZHVsZVwiOmZhbHNlLFwibG9jYWxzXCI6dHJ1ZX0pO1xuICAgICAgbW9kdWxlLmhvdC5kaXNwb3NlKGNzc1JlbG9hZCk7XG4gICAgICBcbiAgICB9XG4gIFxubW9kdWxlLmV4cG9ydHMuX19jaGVja3N1bSA9IFwiM2UyMDdiOTk4NDhiXCJcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/app/modules/Projects/projects.module.css\n"));
+
+/***/ })
+
+});

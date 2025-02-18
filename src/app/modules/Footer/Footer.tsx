@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
 
       <p className={styles.footerText}>
-        © {new Date().getFullYear()} - Diseñado y desarrollado por Emiliano Di Biasi
+        © {new Date().getFullYear()} - Diseñado y desarrollado por Emiliano De Biasi
       </p>
     </footer>
   );

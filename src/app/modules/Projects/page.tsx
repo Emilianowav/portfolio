@@ -1,15 +1,16 @@
 import React from "react";
 import styles from "./projects.module.css";
 import Image from "next/image";
+import Proyecto1 from "../../../../public/images/Proyecto1.png";
 
 const projects = [
   {
     id: 1,
-    title: "Mi Proyecto 1",
-    description: "Este es un proyecto que muestra cómo aplicar una idea creativa.",
-    liveLink: "https://example.com/proyecto1",
-    githubLink: "https://github.com/usuario/proyecto1",
-    image: "/images/proyecto1.png",
+    title: "Cookies & Go",
+    description: "Proyeto de galletas proteicas, on un diseño pop y colorido. Busca una interacción con el usuario llamando la atencion con colores y movimientos. Al mismo tiempo se informa sobre el produto de manera intuitiva y sencilla (en desarrollo).",
+    liveLink: "https://cookiesandgo.vercel.app",
+    githubLink: "https://github.com/Emilianowav/Cookiesandgo.git",
+    image: Proyecto1,
   },
   {
     id: 2,
@@ -31,7 +32,15 @@ const Projects: React.FC = () => {
             <div className={styles.textColumn}>
               <h2 className={styles.projectTitle}>{project.title}</h2>
               <p className={styles.projectDescription}>{project.description}</p>
-              <div className={styles.links}>
+            </div>
+            <div className={styles.imageColumn}>
+              <Image src={project.image} 
+              layout="responsive" 
+              width={16} 
+              height={9} 
+              alt={`Vista previa de ${project.title}`} 
+              className={styles.projectImage} />
+            <div className={styles.links}>
                 <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className={styles.linkButton}>
                   Visitar Web
                 </a>
@@ -39,9 +48,6 @@ const Projects: React.FC = () => {
                   Ver en GitHub
                 </a>
               </div>
-            </div>
-            <div className={styles.imageColumn}>
-              <Image src={project.image} width={50} height={50} alt={`Vista previa de ${project.title}`} className={styles.projectImage} />
             </div>
           </div>
         ))}
