@@ -12,14 +12,14 @@ const projects = [
     githubLink: "https://github.com/Emilianowav/Cookiesandgo.git",
     image: Proyecto1,
   },
-  {
-    id: 2,
-    title: "Mi Proyecto 2",
-    description: "Un proyecto que destaca en diseño y funcionalidad.",
-    liveLink: "https://example.com/proyecto2",
-    githubLink: "https://github.com/usuario/proyecto2",
-    image: "/images/proyecto2.png",
-  },
+  // {
+  //   id: 2,
+  //   title: "Mi Proyecto 2",
+  //   description: "Un proyecto que destaca en diseño y funcionalidad.",
+  //   liveLink: "https://example.com/proyecto2",
+  //   githubLink: "https://github.com/usuario/proyecto2",
+  //   image: "/images/proyecto2.png",
+  // },
 ];
 
 const Projects: React.FC = () => {
