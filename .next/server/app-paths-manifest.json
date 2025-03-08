@@ -1,4 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/Components/HeroSection/page": "app/Components/HeroSection/page.js",
+  "/Components/Projects/page": "app/Components/Projects/page.js",
+  "/Components/Technologies/page": "app/Components/Technologies/page.js",
   "/page": "app/page.js"
 }
