@@ -1,9 +1,10 @@
 .footer {
     width: 100%;
+    height: auto;
     background-color: #0d1117; /* Color de fondo oscuro */
     color: #ffffff;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     font-family:  'Roboto Mono', monospace;
     box-sizing: border-box;
   }

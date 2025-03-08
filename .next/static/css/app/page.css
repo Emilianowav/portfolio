@@ -131,10 +131,11 @@
   \************************************************************************************************************************************************************************************************************************************************************************************/
 .Footer_footer__wevTx {
     width: 100%;
+    height: auto;
     background-color: #0d1117; /* Color de fondo oscuro */
     color: #ffffff;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     font-family:  'Roboto Mono', monospace;
     box-sizing: border-box;
   }
@@ -246,7 +247,6 @@
   font-size: 1rem;
   background: #42f0d8;
   font-family: Roboto Mono, monospace;
-  text-decoration: none;
   color: #333;
   border-radius: 4px;
   transition: background-color 0.3s ease;
@@ -255,6 +255,7 @@
 
 .hero_button__7SX_Y:hover {
   background: #32bba9;
+  cursor: pointer;
 }
 
 .hero_iconoHero__E81T4{
@@ -296,15 +297,64 @@
       font-size: 0.9rem;
   }
 }
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/modules/typingEffect/typingEffect.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.typingEffect_typingEffect__RK5GF{
+    overflow: hidden;
+    padding: 1px;
+    white-space: nowrap;
+    animation: typingEffect_typing__H7oi3 3s steps(30) 1s forwards, typingEffect_blink__t6Yr_ .75s step-end infinite;
+    font-size: 4rem;
+
+}
+.typingEffect_cursor__p6yT_ {
+    display: inline-block;
+    width: 1px;
+    background-color: #394c58;
+    animation: typingEffect_blink__t6Yr_ 0.7s step-end infinite;
+  }
+
+@keyframes typingEffect_typing__H7oi3{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+  }
+
+  @keyframes typingEffect_blink__t6Yr_ {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  @media (max-width: 768px) {
+    
+    .typingEffect_typingEffect__RK5GF{
+    font-size: 4rem;
+
+}
+  }
+  
+  @media (max-width: 480px) {
+
+    .typingEffect_typingEffect__RK5GF{
+      font-size: 2.8rem;
+  
+  }
+}
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/modules/Projects/projects.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
 .projects_projectsContainer__iUaZ9 {
   width: 100%;
+  height: auto;
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
-  margin: 5rem 0;
-  padding: 10rem 5%;
+  margin: 8rem 0 0 0;
+  padding: 20rem 5% 5rem 5%;
   background: linear-gradient(209deg, #4A90E2, #50C4B6, #4E9F9F, #2F8A8C, #1C5B5B);
   background-size: 360% 360%;
   animation: projects_gradient-animation__9bmIl 54s ease infinite;
@@ -320,9 +370,9 @@
   );
   mask-image: linear-gradient(
     rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 1) 20%,
     rgba(0, 0, 0, 1) 80%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 1) 100%
   );
 }
 
@@ -330,7 +380,7 @@
   font-size: 48px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .projects_projectsGrid__Io4gH {
@@ -364,7 +414,7 @@
 }
 
 .projects_projectDescription___4plH {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #555;
   line-height: 1.5;
 }
@@ -534,7 +584,8 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/modules/Technologies/page.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
 .page_container__Kb4CY{
-    margin: 8rem 0;
+    margin: 4rem 0;
+    padding: 10rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -545,6 +596,7 @@
     font-family: Roboto mono, monospace;
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 4rem;
 }
 @media (max-width: 768px) {
     .page_title__y7w__ {
@@ -556,52 +608,4 @@
     .page_title__y7w__ {
         font-size: 32px;
     }
-}
-/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/modules/typingEffect/typingEffect.module.css ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************/
-.typingEffect_typingEffect__RK5GF{
-    overflow: hidden;
-    padding: 1px;
-    white-space: nowrap;
-    animation: typingEffect_typing__H7oi3 3s steps(30) 1s forwards, typingEffect_blink__t6Yr_ .75s step-end infinite;
-    font-size: 4rem;
-
-}
-.typingEffect_cursor__p6yT_ {
-    display: inline-block;
-    width: 1px;
-    background-color: #394c58;
-    animation: typingEffect_blink__t6Yr_ 0.7s step-end infinite;
-  }
-
-@keyframes typingEffect_typing__H7oi3{
-    from{
-        width: 0%;
-    }
-    to{
-        width: 100%;
-    }
-  }
-
-  @keyframes typingEffect_blink__t6Yr_ {
-    50% {
-      border-color: transparent;
-    }
-  }
-
-  @media (max-width: 768px) {
-    
-    .typingEffect_typingEffect__RK5GF{
-    font-size: 4rem;
-
-}
-  }
-  
-  @media (max-width: 480px) {
-
-    .typingEffect_typingEffect__RK5GF{
-      font-size: 2.8rem;
-  
-  }
 }

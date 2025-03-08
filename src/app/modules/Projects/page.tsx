@@ -7,19 +7,33 @@ const projects = [
   {
     id: 1,
     title: "Cookies & Go",
-    description: "Proyeto de galletas proteicas, on un diseño pop y colorido. Busca una interacción con el usuario llamando la atencion con colores y movimientos. Al mismo tiempo se informa sobre el produto de manera intuitiva y sencilla (en desarrollo).",
+    description: "Proyeto de galletas proteicas, con un diseño pop y colorido. Busca una interacción con el usuario llamando la atencion con colores y movimientos. Al mismo tiempo se informa sobre el produto de manera intuitiva y sencilla (en desarrollo).",
     liveLink: "https://cookiesandgo.vercel.app",
     githubLink: "https://github.com/Emilianowav/Cookiesandgo.git",
     image: Proyecto1,
   },
-  // {
-  //   id: 2,
-  //   title: "Mi Proyecto 2",
-  //   description: "Un proyecto que destaca en diseño y funcionalidad.",
-  //   liveLink: "https://example.com/proyecto2",
-  //   githubLink: "https://github.com/usuario/proyecto2",
-  //   image: "/images/proyecto2.png",
-  // },
+  {
+    id: 2,
+    title: "Landing Page",
+    description: "Responsive Landing page para empresa de software, con un diseño minimalista y moderno. Busca informar al usuario de manera clara y sencilla sobre los servicios que ofrece la empresa. Al mismo tiempo ofrece un contacto con la empresa a traves de un formulario de contacto.",
+    liveLink: "https://isource.vercel.app/",
+    githubLink: "https://github.com/Emilianowav/Isource",
+    image: "/images/Proyecto2.jpeg",
+  },
+  {
+     id: 3,
+     title: "API de turnos",
+     description: "API diseñada para recibir turnos y mostrarlos por pantalla, actualmente diseñada para un consultorio médico, pero puede ser adaptada a cualquier ambito.",
+    githubLink: "https://github.com/Emilianowav/Schedule-API",
+     image: "/images/404.jpg",
+   },
+   {
+    id: 4,
+    title: "Pruebas Tecnicas",
+    description: "Distintas pruebas tecnicas llevadas a cabo y estilizadas por bloques, interactivas y funcionales (en proceso)",
+   githubLink: "https://github.com/Emilianowav/pruebasTecnicas",
+    image: "/images/proyecto4.png",
+  },
 ];
 
 const Projects: React.FC = () => {

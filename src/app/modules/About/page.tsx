@@ -1,9 +1,13 @@
 import styles from "./about.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const About = () => {
+interface Props {
+    id : string;
+}
+
+const About: React.FC<Props> = ({id}) => { 
   return (
-    <div className={styles.container}>
+    <div id={id} className={styles.container}>
       
       <div className={styles.content}>
         
@@ -26,10 +30,10 @@ const About = () => {
             <h2 className={styles.h2}>Acerca de mí</h2>
             <p className={styles.description}>
                 Me gusta trabajar de forma cíclica <span className={styles.span}>implementar, mejorar, aprender</span>. <br />
-                Mi especialidad es la creación de páginas modernas utilizando tecnologías como <span className={styles.span}>React, Next.js, y Node.js</span>. <br /> 
-                Me encanta desarrollar aplicaciones con funcionalidades que tengan impacto, con un diseño: impecable, adaptable y funcional. <br />
+                Tengo experiencia creando páginas y aplicaciones modernas utilizando tecnologías como <span className={styles.span}>React, Next.js, y Node.js</span>. <br /> 
+                Me encanta desarrollar aplicaciones con funcionalidades que tengan impacto y con un diseño impecable, adaptable y funcional. <br />
                 <span className={styles.span}> 
-                Mi objetivo es podes ser un parte importante del equipo y contribuir con mis habilidades y conocimientos.</span>
+                Mi objetivo es poder ser una parte importante del equipo y contribuir con mis habilidades y conocimientos.</span>
             </p>
 
 

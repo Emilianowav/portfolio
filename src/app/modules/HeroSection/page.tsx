@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 //assets
 import iconoHero from "../../../../public/images/iconoHero.svg"
@@ -7,6 +8,11 @@ import TypingEffect from "../typingEffect/TypingEffect"
 import Link from "next/link";
 export default function HeroSection() {
     const greetings = ["¡Hola!", "Bonjour!", "Hello!", "Ciao!", "こんにちは!", "안녕하세요!"];
+    
+  const handleScroll = () => {
+    const element = document.getElementById("about");
+    element?.scrollIntoView({behavior:"smooth"})
+  }
     return(
         <div>
             <div className={styles.gradientBack}></div>
@@ -17,7 +23,7 @@ export default function HeroSection() {
                     <h1 className={styles.title}>
                     Soy <span className={styles.name}>Emiliano De Biasi</span> <br /> Desarrollador Front-End
                     </h1>
-                    <Link href="/about" className={styles.button}>Saber más</Link>
+                    <button onClick={handleScroll} className={styles.button}>Saber más</button>
                 </div>
             </div>
         </div>

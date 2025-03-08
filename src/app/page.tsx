@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
     <HeroSection />
-    <About />
-    <Projects />
+    <About id="about" />
     <Carousel />
+    <Projects />
     <Footer/>
     </div>
   );

@@ -73,7 +73,6 @@
   font-size: 1rem;
   background: #42f0d8;
   font-family: Roboto Mono, monospace;
-  text-decoration: none;
   color: #333;
   border-radius: 4px;
   transition: background-color 0.3s ease;
@@ -82,6 +81,7 @@
 
 .button:hover {
   background: #32bba9;
+  cursor: pointer;
 }
 
 .iconoHero{
