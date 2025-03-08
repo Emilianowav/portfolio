@@ -31,7 +31,8 @@ const projects = [
     id: 4,
     title: "Pruebas Tecnicas",
     description: "Distintas pruebas tecnicas llevadas a cabo y estilizadas por bloques, interactivas y funcionales (en proceso)",
-   githubLink: "https://github.com/Emilianowav/pruebasTecnicas",
+    githubLink: "https://github.com/Emilianowav/pruebasTecnicas",
+    liveLink: "https://pruebas-tecnicas-pearl.vercel.app/",
     image: "/images/proyecto4.png",
   },
 ];
